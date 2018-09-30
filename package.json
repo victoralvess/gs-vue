@@ -2,6 +2,7 @@
   "name": "gs-vue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://victoralvess.github.io/gs-vue/",
   "scripts": {
     "serve": "NODE_ENV=development vue-cli-service serve",
     "build": "vue-cli-service build",
