@@ -8,8 +8,8 @@ install:
   - npm install
 script:
   - npm run build
-  - npm test:e2e
-  - npm test:unit
+  - npm run test:e2e
+  - npm run test:unit
 deploy:
   provider: pages
   skip-cleanup: true
