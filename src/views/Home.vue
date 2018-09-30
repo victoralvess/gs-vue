@@ -53,6 +53,9 @@ export default {
       this.modalVisibility = !this.modalVisibility;
       console.log("----ENDT----");
     },
+    track () {
+      this.$ga.page('/')
+    },
   },
 };
 </script>
